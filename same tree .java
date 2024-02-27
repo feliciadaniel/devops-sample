@@ -22,7 +22,6 @@ class Solution {
         if(p==null ||q==null){
             return false;
         }
-        demo=1;
             return p.val==q.val && isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
         
     }
